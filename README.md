@@ -1,40 +1,48 @@
 # 🌐 Portofolio-Ku
-Ini adalah website portofolio pribadi yang dibuat menggunakan **React**. Website ini menampilkan informasi tentang saya, seperti bio, pengalaman, pendidikan, keterampilan pemrograman, dan form kontak. Sebagai portofolio online untuk keperluan melamar kerja, magang, atau branding pribadi.
 
-## Fitur Utama
-
-- Navigasi antar halaman: Home, About, Resume, Skills, Contact
-- Efek animasi saat scroll menggunakan AOS
-- Background animasi partikel interaktif
-- Grafik bar skill menggunakan Chart.js
-- Formulir kontak sederhana
-- Desain **dark mode** yang modern dan rapi
-- Responsive untuk desktop dan mobile
-
-## Tampilan Halaman
-- **Home**: Nama, bio singkat, dan tombol LinkedIn & GitHub
-- **About**: Deskripsi diri dan foto profil
-- **Resume**: Riwayat pendidikan dan pengalaman
-- **Skills**: Grafik keterampilan pemrograman (JS, HTML, CSS, C, C++, React)
-- **Contact**: Alamat, email, nomor HP, form kirim pesan, dan footer sosial media
+Website portofolio pribadi yang dibuat menggunakan **ReactJS**. Situs ini menampilkan informasi seperti bio, pendidikan, pengalaman, keterampilan pemrograman, dan kontak. Cocok untuk melamar kerja, magang, atau personal branding.
 
 ---
 
-## 🚀 Cara Menjalankan Project Ini
+## ✨ Fitur Utama
 
-> Pastikan kamu sudah menginstall **Node.js** dan **npm** di komputer kamu.
+- Navigasi antar halaman: Home, About, Resume, Skills, Contact
+- Efek animasi saat scroll menggunakan AOS
+- Background animasi partikel yang interaktif
+- Grafik bar skill menggunakan Chart.js
+- Formulir kontak sederhana dengan tombol kirim
+- Desain **dark mode** yang modern dan bersih
+- Responsive untuk semua ukuran layar
 
-1. Clone Repository
-  git clone https://github.com/username-kamu/nama-repo-portofolio.git
+---
 
-2. Masuk ke Folder Project
-  cd nama-repo-portofolio
+## 📄 Tampilan Halaman
 
-3. Install Semua Dependency
-  npm install
+- **Home**: Nama lengkap, bio singkat, tombol LinkedIn & GitHub
+- **About**: Deskripsi diri dan foto profil
+- **Resume**: Riwayat pendidikan dan pengalaman
+- **Skills**: Grafik keterampilan coding (JavaScript, HTML, CSS, React, C, C++)
+- **Contact**: Alamat, email, nomor HP, form kirim pesan, dan footer media sosial
 
-4. Jalankan Website di Localhost
-  npm start
+---
 
-Lalu buka browser ke http://localhost:3000.
+## Cara Menjalankan Project
+
+1. Clone repo ini:
+   ```bash
+   git clone https://github.com/username-kamu/nama-repo-portofolio.git
+   cd catatan-app
+
+2. Masuk ke folder project
+   ```bash
+   cd nama-repo-portofolio
+   
+3. Install semua dependency
+   ```bash
+   npm install
+4. Jalankan website secara lokal
+   ```bash
+   npm start
+ 
+Lalu buka http://localhost:3000 di browser kamu.
 
