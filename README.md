@@ -30,11 +30,11 @@ Website portofolio pribadi yang dibuat menggunakan **ReactJS**. Situs ini menamp
 
 1. Clone repo ini:
    ```bash
-   git clone https://github.com/username-kamu/nama-repo-portofolio.git
+   git clone https://github.com/moonbyl/portofolio-ku.git
 
 2. Masuk ke folder project
    ```bash
-   cd nama-repo-portofolio
+   cd portofolio-ku
    
 3. Install semua dependency
    ```bash
