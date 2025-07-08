@@ -1,0 +1,49 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #1e293b, #0f172a, #1e293b, #0f172a);
+  background-size: 400% 400%;
+  animation: moveBg 15s ease infinite;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home-bio {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.home-buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-buttons a:nth-child(2) {
+  background-color: #10b981;
+}
+
+@keyframes moveBg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
