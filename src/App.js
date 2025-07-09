@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'; // ← tambahkan useEffect di sini
+import React, { useEffect } from 'react'; 
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -34,7 +34,6 @@ function App() {
         <Resume />
         <Skills />
         <Contact />
-        {/* Resume, Skills, Contact bisa ditambahkan di sini */}
       </main>
     </div>
   );
