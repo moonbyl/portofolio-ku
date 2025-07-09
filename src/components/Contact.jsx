@@ -18,7 +18,6 @@ function Contact() {
   // HANDLE submit form
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Kamu bisa ganti alert ini jadi kirim ke email atau API nanti
     alert(`Pesan terkirim!\n\nNama: ${formData.nama}\nEmail: ${formData.email}\nPesan: ${formData.pesan}`);
     
     // Reset form
