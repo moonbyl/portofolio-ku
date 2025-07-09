@@ -28,7 +28,7 @@ function Skills() {
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false, // agar bisa atur tinggi
+    maintainAspectRatio: false,
     scales: {
       y: {
         beginAtZero: true,
