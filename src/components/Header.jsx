@@ -4,7 +4,7 @@ function Header() {
   return (
     <header
       style={{
-        position: 'fixed', // <- ubah ini dari 'relative' ke 'fixed'
+        position: 'fixed', 
         top: 0,
         left: 0,
         width: '100%',
