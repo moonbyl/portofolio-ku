@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadBasic } from "tsparticles-basic";
-import { FaLinkedin, FaGithub } from "react-icons/fa"; // ⬅️ Tambahkan ini
+import { FaLinkedin, FaGithub } from "react-icons/fa"; 
 
 function Home() {
   const particlesInit = async (engine) => {
